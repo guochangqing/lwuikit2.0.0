@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lwuikit="http://schemas.android.com/apk/res/six.lwuikit"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	<Button 
+	    android:id="@+id/acquire_button"
+	    android:text="acquire"
+	    android:onClick="onClick"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<Button 
+	    android:id="@+id/release_button"
+	    android:text="release"
+	    android:onClick="onClick"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<Button 
+	    android:id="@+id/thread_button"
+	    android:text="thread"
+	    android:onClick="onClick"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lwuikit="http://schemas.android.com/apk/res/six.lwuikit"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+	<six.lwuikit.bar.VSeekBar
+		android:id="@+id/seekbar"
+		android:layout_gravity="center"
+		android:layout_marginTop="20dp"
+		android:layout_marginBottom="20dp"
+		android:layout_width="18dp"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:minWidth="18dp"
+		android:maxWidth="18dp"
+		android:thumbOffset="0dp"
+		android:progressDrawable="@drawable/new_progressbar_vertical"
+		android:thumb="@drawable/ic_slider_seekbar" />
+
+	<LinearLayout
+	    android:gravity="center_vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+	    <six.lwuikit.bar.CSeekBar
+	        android:id="@+id/bass_circular_view"
+	        android:layout_width="130dp"
+	        android:layout_height="130dp"
+	        android:scrollX="1dp"
+	        lwuikit:backgroundable="true"
+	        lwuikit:pinkDrawable="@drawable/ic_square_pink"
+	        lwuikit:pointDrawable="@drawable/ic_point_pink_m"
+	        lwuikit:signDrawable="@drawable/ic_jia"
+	        lwuikit:squareDrawable="@drawable/ic_square"
+	        lwuikit:unsignDrawable="@drawable/ic_jian" />
+		<six.lwuikit.bar.IProgressBar
+		    android:id="@+id/color_progressBar"
+		    lwuikit:framesDuration="10"
+		    lwuikit:framesCount="120"
+		    android:layout_marginLeft="55dp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:indeterminateDrawable="@drawable/color_progress" />
+		<six.lwuikit.bar.IProgressBar
+		    android:id="@+id/color_progressBar2"
+		    android:layout_marginLeft="55dp"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:indeterminateDrawable="@drawable/color_progress2" />
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+		<Button 
+		    android:id="@+id/btn_start"
+		    android:text="start"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+		<Button 
+		    android:id="@+id/btn_end"
+		    android:text="end"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+		<Button 
+		    android:id="@+id/btn_show"
+		    android:text="show"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+		<Button 
+		    android:id="@+id/btn_hide"
+		    android:text="hide"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+	</LinearLayout>
+
+</LinearLayout>

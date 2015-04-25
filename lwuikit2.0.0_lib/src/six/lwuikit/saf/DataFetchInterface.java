@@ -1,0 +1,1 @@
+package six.lwuikit.saf;public interface DataFetchInterface {	public int getViewIdByName(String viewname);	public int getAnimationIdByName(String animname);}

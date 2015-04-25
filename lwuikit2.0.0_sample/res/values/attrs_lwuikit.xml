@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   	<declare-styleable name="lyric">
+        <attr name="offset_y" format="reference|dimension" />
+        <attr name="padding_y" format="reference|dimension" />
+        <attr name="highlightColor" format="reference|color" />
+        <attr name="normalColor" format="reference|color" />
+        <attr name="fontSize" format="reference|dimension" />
+        <attr name="defaultString" format="reference|string" />
+        <attr name="numRows" format="integer" />
+        <attr name="directions" format="reference|string" />
+        <attr name="scrollMode">
+            <enum name="line" value="0" />
+            <enum name="pixel" value="1" />
+        </attr>
+        <attr name="shadowable" format="boolean" />
+        <attr name="touchMode">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="location" value="2" />
+        </attr>
+        <attr name="touchLineHeight" format="reference|dimension" />
+        <attr name="touchLineColor" format="reference|color" />
+        <attr name="shadowHeight" format="reference|dimension" />
+        <attr name="shadowFrontColor" format="reference|color" />
+        <attr name="shadowEndColor" format="reference|color" />
+	</declare-styleable>
+	<declare-styleable name="saf">
+        <attr name="aEvent" format="reference|string" />
+	</declare-styleable>
+	<declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="left_right" value="2" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+    </declare-styleable>
+    <declare-styleable name="AlphabetView">
+        <attr name="focusDrawable" format="reference" />
+        <attr name="focusTextColor" format="reference|color" />
+        <attr name="normalTextColor" format="reference|color" />
+        <attr name="tabTextColor" format="reference|color" />
+        <attr name="aFontSize" format="reference|dimension" />
+	</declare-styleable>
+	<declare-styleable name="EcoGallery">
+        <attr name="gravitys" format="integer" />
+        <attr name="animationDuration" format="integer" />
+        <attr name="unselectedAlpha" format="float" />
+        <attr name="spacing" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="CustomAbsSpinner">
+        <attr name="entries" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="WheelView">
+        <attr name="wv_TextColor" format="reference|color" />
+        <attr name="wv_TextFocusedColor" format="reference|color" />
+        <attr name="wv_LongScaleLineColor" format="reference|color" />
+        <attr name="wv_LongScaleLineFocusedColor" format="reference|color" />
+        <attr name="wv_ScaleLengthShort" format="reference|dimension" />
+        <attr name="wv_MarginTopOfLabel" format="reference|dimension" />
+        <attr name="wv_LongScaleWidth" format="reference|dimension" />
+        <attr name="wv_TextSize" format="reference|dimension" />
+        <attr name="wv_Horizontal" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="ProgressBar">
+        <attr name="android:progressDrawable" />
+        <attr name="android:minWidth" />
+        <attr name="android:maxWidth" />
+        <attr name="android:minHeight" />
+        <attr name="android:maxHeight" />
+        <attr name="android:max" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingRight" />
+        <attr name="android:progress" />
+        <attr name="android:secondaryProgress" />
+    </declare-styleable>
+    <declare-styleable name="SeekBar">
+        <attr name="android:thumb" />
+        <attr name="android:thumbOffset" />
+        <attr name="android:disabledAlpha" />
+    </declare-styleable>
+    <declare-styleable name="CSeekBar">
+        <attr name="circleBackColor" format="reference|color" />
+        <attr name="backgroundable" format="boolean" />
+        <attr name="pointDrawable" format="reference" />
+        <attr name="squareDrawable" format="reference" />
+        <attr name="pinkDrawable" format="reference" />
+        <attr name="signDrawable" format="reference" />
+        <attr name="unsignDrawable" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="IProgressBar">
+        <attr name="framesDuration" format="integer|reference" />
+        <attr name="framesCount" format="integer|reference" />
+    </declare-styleable>
+</resources>

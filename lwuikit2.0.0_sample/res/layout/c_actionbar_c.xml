@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<six.lwuikit.saf.LinearBase xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lebar="http://schemas.android.com/apk/res/six.lwuikit"
+    android:id="@+id/ceshi"
+    android:background="#363636"
+    lebar:aEvent="eventid=1,actionid=4,actiontype=1,viewid=component1,actiondelay=0,actioncontent=playbar_fade_out;eventid=1,actionid=5,actiontype=1,viewid=component2,actiondelay=0,actioncontent=playbar_fade_out;eventid=1,actionid=6,actiontype=1,viewid=expandsss,actiondelay=0,actioncontent=playbar_fade_out;eventid=1,actionid=7,actiontype=2,viewid=ceshi,actiondelay=0,actioncontent=0|0|width|0|500|AccelerateDecelerateInterpolator;eventid=2,actionid=4,actiontype=1,viewid=component1,actiondelay=0,actioncontent=playbar_fade_in;eventid=2,actionid=5,actiontype=1,viewid=component2,actiondelay=0,actioncontent=playbar_fade_in;eventid=2,actionid=6,actiontype=1,viewid=expandsss,actiondelay=0,actioncontent=playbar_fade_in;eventid=2,actionid=7,actiontype=2,viewid=ceshi,actiondelay=0,actioncontent=width|0|-width|0|500|AccelerateDecelerateInterpolator"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <!-- lebar:aEvent="eventid=1,actionid=4,actiontype=1,viewid=component1,actiondelay=0,actioncontent=playbar_fade_out;eventid=1,actionid=5,actiontype=1,viewid=component2,actiondelay=0,actioncontent=playbar_fade_out;eventid=1,actionid=6,actiontype=1,viewid=expandsss,actiondelay=0,actioncontent=playbar_fade_out;eventid=1,actionid=7,actiontype=2,viewid=ceshi,actiondelay=0,actioncontent=0|0|width|0|500|AccelerateDecelerateInterpolator;eventid=2,actionid=4,actiontype=1,viewid=component1,actiondelay=0,actioncontent=playbar_fade_in;eventid=2,actionid=5,actiontype=1,viewid=component2,actiondelay=0,actioncontent=playbar_fade_in;eventid=2,actionid=6,actiontype=1,viewid=expandsss,actiondelay=0,actioncontent=playbar_fade_in;eventid=2,actionid=7,actiontype=2,viewid=ceshi,actiondelay=0,actioncontent=width|0|-width|0|500|AccelerateDecelerateInterpolator" -->
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/component1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/ic_tab_list_black" />
+
+        <LinearLayout
+            android:id="@+id/component2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="全部本地音乐"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text=">"
+                android:textColor="#ffffff"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+    
+
+	<TextView
+	    android:id="@+id/expandsss"
+	    android:layout_marginRight="10dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="+"
+	    android:textColor="#ffffff"
+	    android:textSize="38sp" />
+
+</six.lwuikit.saf.LinearBase>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<six.lwuikit.app.lebar.LActionBarP xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lebar="http://schemas.android.com/apk/res/six.lwuikit"
+    lebar:aEvent="eventid=1,actionid=8,actiontype=1,viewid=actionbar_play,actiondelay=0,actioncontent=playbar_fade_in;eventid=1,actionid=9,actiontype=2,viewid=actionbar_play,actiondelay=0,actioncontent=-width|0|width|0|500|AccelerateDecelerateInterpolator;eventid=2,actionid=8,actiontype=1,viewid=actionbar_play,actiondelay=0,actioncontent=playbar_fade_out;eventid=2,actionid=9,actiontype=2,viewid=actionbar_play,actiondelay=0,actioncontent=0|0|-width|0|500|AccelerateDecelerateInterpolator"
+   	android:id="@+id/actionbar_play"
+   	android:visibility="invisible"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+	
+    <!-- lebar:aEvent="eventid=1,actionid=8,actiontype=1,viewid=actionbar_play,actiondelay=0,actioncontent=playbar_fade_in;eventid=1,actionid=9,actiontype=2,viewid=actionbar_play,actiondelay=0,actioncontent=-width|0|width|0|500|AccelerateDecelerateInterpolator;eventid=2,actionid=8,actiontype=1,viewid=actionbar_play,actiondelay=0,actioncontent=playbar_fade_out;eventid=2,actionid=9,actiontype=2,viewid=actionbar_play,actiondelay=0,actioncontent=0|0|-width|0|500|AccelerateDecelerateInterpolator" -->
+	<LinearLayout 
+	    android:id="@+id/actionbar_back"
+	    android:layout_weight="1"
+	    android:gravity="center_vertical"
+	    android:orientation="horizontal"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content">
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="5dp"
+	        android:text="&lt;"
+	        android:textColor="#ffffff"
+	        android:textSize="20sp" />
+
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="8dp"
+	        android:text="祝君好"
+	        android:textColor="#ffffff"
+	        android:textSize="18sp" />
+
+	</LinearLayout>
+    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:text="..."
+        android:textColor="#ffffff"
+        android:textSize="38sp" />
+
+</six.lwuikit.app.lebar.LActionBarP>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lwuikit="http://schemas.android.com/apk/res/six.lwuikit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<six.lwuikit.common.WheelView
+	    android:id="@+id/radio_cycle_view"
+	    android:layout_centerInParent="true"
+	    android:layout_marginTop="10dp"
+	    lwuikit:wv_TextColor="#ffffff"
+	    lwuikit:wv_TextFocusedColor="#F54696"
+	    lwuikit:wv_LongScaleLineColor="#ffffff"
+	    lwuikit:wv_LongScaleLineFocusedColor="#F54696"
+	    lwuikit:wv_ScaleLengthShort="7dp"
+	    lwuikit:wv_MarginTopOfLabel="10.5dp"
+	    lwuikit:wv_LongScaleWidth="1dp"
+	    lwuikit:wv_TextSize="15sp"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"/>
+
+</RelativeLayout>

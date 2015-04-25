@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<six.lwuikit.app.lebar.PlayBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lebar="http://schemas.android.com/apk/res/six.lwuikit"
+    android:id="@+id/playbar_container1"
+    lebar:aEvent="eventid=1,actionid=2,actiontype=1,viewid=playbar_container5,actiondelay=0,actioncontent=playbar_fade_out;eventid=1,actionid=3,actiontype=1,viewid=playbar_button4,actiondelay=0,actioncontent=playbar_fade_in;eventid=2,actionid=2,actiontype=1,viewid=playbar_container5,actiondelay=0,actioncontent=playbar_fade_in;eventid=2,actionid=3,actiontype=1,viewid=playbar_button4,actiondelay=0,actioncontent=playbar_fade_out;eventid=1,actionid=10,actiontype=1,viewid=playbar_button1,actiondelay=0,actioncontent=playbar_fade_in;eventid=2,actionid=10,actiontype=1,viewid=playbar_button1,actiondelay=0,actioncontent=playbar_fade_out;eventid=1,actionid=11,actiontype=2,viewid=playbar_container4,actiondelay=0,actioncontent=expression|0|expression|0|500|AccelerateDecelerateInterpolator;eventid=2,actionid=11,actiontype=2,viewid=playbar_container4,actiondelay=0,actioncontent=expression|0|expression|0|500|AccelerateDecelerateInterpolator"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+     <!-- lebar:aEvent="" -->
+    <LinearLayout 
+        android:id="@+id/playbar_container4"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+		<Button
+		    android:id="@+id/playbar_button4"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="模式"
+		    android:textSize="12sp"
+		    android:visibility="invisible" />
+        <LinearLayout
+            android:id="@+id/playbar_container2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上一首"
+                android:textSize="12sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="播放/暂停"
+                android:textSize="12sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下一首"
+                android:textSize="12sp" />
+
+		</LinearLayout>
+		<Button
+	        android:id="@+id/playbar_button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="菜单"
+	        android:textSize="12sp"/>
+		
+
+    </LinearLayout>
+	<LinearLayout 
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+		<LinearLayout
+		    android:id="@+id/playbar_container5"
+		    android:layout_weight="1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/playbar_cover"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/zhangzhilin" />
+
+			<LinearLayout
+			    android:layout_marginLeft="5dp"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:ellipsize="end"
+			        android:singleLine="true"
+			        android:text="一起走过的日子"
+			        android:textColor="#ffffff"
+			        android:textSize="20sp" />
+
+			    <TextView
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:ellipsize="end"
+			        android:singleLine="true"
+			        android:text="刘德华"
+			        android:textColor="#cccccc"
+			        android:textSize="16sp" />
+			</LinearLayout>
+
+		</LinearLayout>
+		<TextView
+		    android:id="@+id/playbar_container3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+</six.lwuikit.app.lebar.PlayBar>

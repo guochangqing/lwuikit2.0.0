@@ -1,0 +1,1 @@
+package six.lwuikit.app.utils;public class AttrsData {	static{			}}

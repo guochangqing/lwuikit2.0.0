@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playbar_father"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/cccc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+		<include layout="@layout/c_actionbar_c" />
+		<FrameLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1">
+
+		    <ImageView
+		        android:layout_width="match_parent"
+		        android:layout_height="match_parent"
+		        android:background="#ff0000" />
+			<Button 
+			    android:id="@+id/test"
+			    android:text="test"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"/>
+		</FrameLayout>
+        
+
+        <six.lwuikit.app.lebar.PlayBarPlaceHolder
+            android:id="@+id/holders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<six.lwuikit.sm.SlidingMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:slidingmenu="http://schemas.android.com/apk/res/six.lwuikit"
+    android:id="@+id/sm_slide"
+    android:background="@drawable/play_bg"
+	slidingmenu:viewBehind="@layout/c_sliding_menu"
+	slidingmenu:viewAbove="@layout/c_sliding_content"
+	slidingmenu:behindScrollScale="0.0"
+	slidingmenu:touchModeAbove="fullscreen"
+	slidingmenu:behindOffset="60dip"
+	slidingmenu:mode="left"
+	slidingmenu:fadeEnabled="false"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" />
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<six.lwuikit.app.lebar.ContentPanel xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:lebar="http://schemas.android.com/apk/res/six.lwuikit"
+    android:id="@+id/playcontent_container"
+    lebar:aEvent="eventid=1,actionid=12,actiontype=1,viewid=playcontent_container,actiondelay=250,actioncontent=content_fade_in;eventid=2,actionid=12,actiontype=1,viewid=playcontent_container,actiondelay=0,actioncontent=content_fade_out;eventid=1,actionid=13,actiontype=2,viewid=playcontent_container2,actiondelay=250,actioncontent=0|-50|0|50|200|AccelerateDecelerateInterpolator;eventid=2,actionid=13,actiontype=2,viewid=playcontent_container2,actiondelay=0,actioncontent=0|0|0|-50|100|AccelerateDecelerateInterpolator"
+    android:visibility="invisible"
+    android:layout_width="match_parent"
+    android:layout_weight="1"
+    android:layout_height="0dp">
+    <!-- lebar:aEvent="eventid=1,actionid=12,actiontype=1,viewid=playcontent_container,actiondelay=250,actioncontent=content_fade_in;eventid=2,actionid=12,actiontype=1,viewid=playcontent_container,actiondelay=0,actioncontent=content_fade_out;eventid=1,actionid=13,actiontype=2,viewid=playcontent_container2,actiondelay=250,actioncontent=0|-50|0|50|200|AccelerateDecelerateInterpolator;eventid=2,actionid=13,actiontype=2,viewid=playcontent_container2,actiondelay=0,actioncontent=0|0|0|-50|100|AccelerateDecelerateInterpolator" -->
+    <LinearLayout 
+        android:id="@+id/playcontent_container2"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView 
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/zhangzhilin"
+            android:layout_width="200dp"
+            android:layout_height="200dp"/>
+        <TextView
+            android:id="@+id/songname"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="祝君好"
+            android:textColor="#ffffff"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="I AM CHILAM--张智霖"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+	<TextView
+	    android:layout_gravity="bottom|center_horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginTop="10dp"
+	    android:ellipsize="end"
+	    android:singleLine="true"
+	    android:text=". . ."
+	    android:textColor="#ffffff"
+	    android:textSize="40sp" />
+
+</six.lwuikit.app.lebar.ContentPanel>

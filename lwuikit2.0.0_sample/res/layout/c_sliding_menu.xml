@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:text="尚未登录"
+	    android:textSize="18sp" />
+	<Button 
+	    android:id="@+id/sm_button1"
+	    android:gravity="center"
+	    android:text="按钮1"
+	    android:textSize="18sp" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<Button 
+	    android:id="@+id/sm_button2"
+	    android:gravity="center"
+	    android:text="按钮2"
+	    android:textSize="18sp" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<Button 
+	    android:id="@+id/sm_button3"
+	    android:gravity="center"
+	    android:text="按钮3"
+	    android:textSize="18sp" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<Button 
+	    android:id="@+id/sm_button4"
+	    android:gravity="center"
+	    android:text="按钮4"
+	    android:textSize="18sp" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+	<Button 
+	    android:id="@+id/sm_button5"
+	    android:gravity="center"
+	    android:text="按钮5"
+	    android:textSize="18sp" 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+
